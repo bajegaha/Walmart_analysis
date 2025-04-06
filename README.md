@@ -141,7 +141,7 @@ requirements.txt
   ```
 
 4. **Prepare your data**
-  - Place the `WalmartRetailSales.xlsx` file in the project root directory
+  - Place the `WalmartRetailSales.csv` file in the project root directory
 
 ## Usage
 
