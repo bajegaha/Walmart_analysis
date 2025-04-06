@@ -40,13 +40,19 @@ This comprehensive data analysis project processes, cleans, and analyzes Walmart
 ## Project Structure
 
 ```
-Sales_Analysis/
-WalmartRetailSales.csv
+Walmart_Analysis/
+Data
+    WalmartRetailSales.csv
+Data_analysis.py
+data_cleaning.py
 database_operations.py
-README.md
-create_visualizations.py
+Visualization
+    create_visualizations.py
     state_sales_growth.png
     profit_vs_orders.png
+    top_subcategories_by_region.png
+    yearly_sales_trend.png
+requirements.txt
                  
 ```
 
@@ -71,8 +77,7 @@ create_visualizations.py
 
 1. **Clone the repository**
   ```bash
-  git clone https://github.com/yourusername/walmart-sales-analysis.git
-  cd walmart-sales-analysis
+  git clone 
   ```
 
 2. **Install required Python packages**
