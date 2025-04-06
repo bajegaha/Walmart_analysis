@@ -77,7 +77,7 @@ requirements.txt
 
 1. **Clone the repository**
   ```bash
-  git clone 
+  git clone git@github.com:bajegaha/Walmart_analysis.git
   ```
 
 2. **Install required Python packages**
