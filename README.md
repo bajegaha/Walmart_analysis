@@ -1,4 +1,4 @@
-# Walmart_analysis
+
 # Walmart Retail Sales Analysis
 
 ![Walmart Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1280px-Walmart_logo.svg.png)
@@ -21,7 +21,6 @@ This comprehensive data analysis project processes, cleans, and analyzes Walmart
  - [Database Operations](#database-operations)
  - [Data Analysis](#data-analysis)
 - [Key Insights](#key-insights)
-- [Testing](#testing)
 - [Deployment](#deployment)
 - [Future Enhancements](#future-enhancements)
 - [Author](#author)
@@ -40,19 +39,23 @@ This comprehensive data analysis project processes, cleans, and analyzes Walmart
 ## Project Structure
 
 ```
-Walmart_Analysis/
-Data
-    WalmartRetailSales.csv
-Data_analysis.py
-data_cleaning.py
-database_operations.py
-Visualization
-    create_visualizations.py
-    state_sales_growth.png
-    profit_vs_orders.png
-    top_subcategories_by_region.png
-    yearly_sales_trend.png
-requirements.txt
+Walmart-Sales-Analysis/
+├── Data/
+│   └── WalmartRetailSales.csv
+├── data_cleaning.py
+├── database_operations.py
+├── Data_analysis.py
+├── Visualtions/
+│   └── create_visualization.py
+│   └── profit_vs_orders.png
+    └── state_sales_growth.png
+    └── top_subcategories_by_region.png
+    └── yearly_sales_trend.png
+├── requirements.txt
+├── README.md
+├── LICENSE.md
+└── .gitignore
+
                  
 ```
 
@@ -74,40 +77,44 @@ requirements.txt
 - Git (for version control)
 
 ### Installation
+  - Follow these clear steps to set up the Walmart Retail Sales Analysis Poject on your system:
 
-1. **Clone the repository**
+   1. **Clone the repository**
   ```bash
   git clone git@github.com:bajegaha/Walmart_analysis.git
   ```
 
-2. **Install required Python packages**
+   2. **Install required Python packages**
   ```bash
   pip install pandas pymysql sqlalchemy matplotlib seaborn
   ```
+  - These packages provide essential functionality for data manipulation, database connections, and visualization.
 
-3. **Install MySQL**
+
+   3. **Step 3: Set Up MySQL Database**
+    i. **Install MySQL**
   ```bash
   sudo apt install mysql-server
   ```
-4. **Secure MySQL Installation**
-  ```bash
-  sudo apt install mysql-server
-  ```
-5. **Set up MySQL database**
+   ii. **Secure MySQL Installation**
   ```bash
   sudo mysql_secure_installation
   ```
-
-6. **Check MySQL Status**
+   - Follow the prompts to set a root password and secure your installation.
+    
+   iii. **Check MySQL Status**
   ```bash
   sudo systemctl status mysql
   ```
-
-7. **Set up MySQL database**
+   - Ensure that MySQL is running (look for "active (running)")
+    
+   iv. **Set up MySQL database**
   ```bash
   mysql -u root -p
   ```
-
+   - Enter your password when prompted, then run these SQL commands:
+     
+     
   ```sql
   CREATE DATABASE walmart;
   USE walmart;
@@ -141,7 +148,9 @@ requirements.txt
   ```
 
 4. **Prepare your data**
-  - Place the `WalmartRetailSales.csv` file in the project root directory
+  - Place  WalmartRetailSales.csv in the project root directory.
+    Once these steps are completed, you can run the analysis scripts in sequence (cleaning → database operations 
+    → analysis → visualization) to process the data and generate insights
 
 ## Usage
 
@@ -254,7 +263,7 @@ Potential improvements for future versions:
 
 ## Author
 
-*Ghan Bahadur Gaha*
+**Ghan Bahadur Gaha**
 
 ## License
 
