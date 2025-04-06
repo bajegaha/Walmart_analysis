@@ -254,7 +254,7 @@ Potential improvements for future versions:
 
 ## Author
 
-**Ghan Bahadur Gaha**
+*Ghan Bahadur Gaha*
 
 ## License
 
@@ -263,6 +263,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 - Walmart for providing the retail sales dataset
-- The pandas, matplotlib, and seaborn development teams for their excellent data analysis tools
-- MySQL team for the database system used in this project
-- All contributors who have helped improve this project
+- All contributors who have helped improve this project specially my teammates @Kapil Choudhary @ Ramsharan Pokharel @ Iris Russell @ Anshul Sharma
